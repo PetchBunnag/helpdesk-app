@@ -1,0 +1,30 @@
+.container {
+    padding: 20px;
+}
+
+.ticket-grid {
+    border-left: 1px solid #ddd;
+    margin-left: 3%;
+}
+
+.ticket-box {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 8px;
+    scrollbar-width: none;
+    /* For Firefox */
+}
+
+.ticket-box::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Edge */
+}
+
+.ticket-card-container {
+    flex: 1 1 25%;
+    height: 100%;
+    max-width: 25%;
+    padding: 10px;
+}

@@ -1,0 +1,77 @@
+.ticket-card {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.pending-ticket {
+    background-color: #f8e6a0;
+    /* Ticket color for pending */
+}
+
+.accepted-ticket {
+    background-color: #baf3db;
+    /* Ticket color for accepted */
+}
+
+.resolved-ticket {
+    background-color: #c6edfb;
+    /* Ticket color for resolved */
+}
+
+.rejected-ticket {
+    background-color: #ffd5d2;
+    /* Ticket color for rejected */
+}
+
+.default-ticket {
+    background-color: #ffffff;
+    /* Default ticket color */
+}
+
+.status-text {
+    text-transform: capitalize;
+}
+
+.pending-status {
+    color: #533f04;
+    /* Text color for pending status */
+}
+
+.accepted-status {
+    color: #164b35;
+    /* Text color for accepted status */
+}
+
+.resolved-status {
+    color: #164555;
+    /* Text color for resolved status */
+}
+
+.rejected-status {
+    color: #5d1f1a;
+    /* Text color for rejected status */
+}
+
+.default-status {
+    color: #000000;
+    /* Default text color */
+}
+
+.ticket-list {
+    max-height: 68vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* For Firefox */
+}
+
+.ticket-list::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Edge */
+}
+
+.ticket-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
