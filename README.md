@@ -19,7 +19,7 @@ This is a helpdesk ticket management application that provides a backend service
 Clone the project
 
 ```bash
-  git clone https://link-to-project](https://github.com/PetchBunnag/helpdesk-app.git
+  git clone https://github.com/PetchBunnag/helpdesk-app.git
 ```
 
 Go to the project directory
